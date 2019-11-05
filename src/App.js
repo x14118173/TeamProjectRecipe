@@ -10,7 +10,7 @@ import { NavigationBar } from "./components/Navigationbar";
 import { Jumbotron } from "./components/Jumbotron";
 
 // why you do this alan -_-
-
+//Test
 class App extends Component {
   render() {
     return (
@@ -22,6 +22,7 @@ class App extends Component {
             <Jumbotron />
             <Layout>
               <Switch>
+                <Route path="/home" render={() => <h1>Home</h1>} />
                 <Route path="/create-recipe" component={RecipeCreate} />
                 <Route path="/browse-recipe" component={BrowseRecipes} />
                 <Route path="/sign-out" render={() => <h1>sign-out</h1>} />

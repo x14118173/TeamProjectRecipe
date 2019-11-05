@@ -10,6 +10,7 @@ import { NavigationBar } from "./components/Navigationbar";
 import { Jumbotron } from "./components/Jumbotron";
 
 // why you do this alan -_-
+// cas Im a fool :(
 
 class App extends Component {
   render() {

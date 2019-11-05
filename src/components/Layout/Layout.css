@@ -1,0 +1,26 @@
+.Navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background-color: beige;
+}
+
+.Navbar li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Navbar a:hover {
+  color: aqua;
+}
+
+.Navbar a:active {
+  color: aqua;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: black;
+}
